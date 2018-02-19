@@ -15,7 +15,7 @@ class Home extends Component {
         <Header textAlign='center' as='h1' style={styles.welcome_header}>Utah Wedding Receptions</Header>
         {/* <Image rounded src={welcome_bg} style={styles.welcome_img} /> */}
         <Segment color='inverted teal' style={styles.welcome_options}>
-          <Header as='h5'>Ready to tie the knot?</Header>
+          <Header as='h5' textAlign='center'>Ready to tie the knot?</Header>
           <Link to='/Login'>
           <Button primary fluid>Login</Button>
           </Link>
